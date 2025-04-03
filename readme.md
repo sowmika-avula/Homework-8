@@ -20,7 +20,7 @@ The pipeline consists of two main jobs:
 
 Below is a screenshot showing the successfully published Docker image in my Docker Hub account:
 
-![Docker Hub Repository](Screenshot%202025-04-02%20195344.png)
+![Docker Hub Repository](screenshots/dockerhub-screenshot.png)
 
 ## Application Preview
 
