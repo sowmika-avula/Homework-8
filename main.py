@@ -1,6 +1,7 @@
 from flask import Flask
 
 app = Flask(__name__)
+VERSION = "1.0.0"
 
 @app.route('/')
 def home():
@@ -24,6 +25,7 @@ def home():
                     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
                 }
                 h1 { color: #1a73e8; }
+                .version { color: #666; font-size: 0.9em; }
             </style>
         </head>
         <body>
@@ -31,6 +33,7 @@ def home():
                 <h1>Welcome to DevOps Demo</h1>
                 <p>This is a simple Flask application containerized with Docker and deployed using GitHub Actions.</p>
                 <p>Created by: Sowmika Avula</p>
+                <p class="version">Version: """ + VERSION + """</p>
             </div>
         </body>
     </html>
